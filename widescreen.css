@@ -1,0 +1,16 @@
+/* icon-g zuun talruu zeregtsuuleh */
+#who .items .item {
+    display: flex;
+    text-align: left;
+}
+
+/* Iconi bairshil */
+
+#who .items .item .icon {
+    margin-right: 1.3rem;
+    align-self: center;
+}
+
+#who .items .item .icon i {
+    margin-bottom: 0;
+}

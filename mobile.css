@@ -1,0 +1,45 @@
+#who .items {
+    display: block;
+    padding: 1rem;
+}
+/* icon-g zuun talruu zeregtsuuleh */
+#who .items .item {
+    display: flex;
+    text-align: left;
+}
+
+/* Iconi bairshil */
+
+#who .items .item .icon {
+    margin-right: 1.3rem;
+    align-self: center;
+}
+
+#who .items .item .icon i {
+    margin-bottom: 0;
+}
+
+/* Smartphone style */
+
+@media(max-width: 500px) {
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #showcase .showcase-content {
+        top: 113px
+    }
+
+    #part2 {
+        display: block;
+    }
+
+    #contact {
+        flex-direction: column;
+    }
+
+    .m-heading {
+        font-size: 1.5rem;
+    }
+}
